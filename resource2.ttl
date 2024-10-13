@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ex: <http://example.org/> .
+
+<https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource2.ttl>
+    owl:sameAs <https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource3.ttl> ;
+    ex:linkedTo _:blankNode2 .
+
+_:blankNode2
+    ex:hasValue "Another blank node with a literal value" ;
+    owl:sameAs <https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource1.ttl> .
