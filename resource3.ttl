@@ -1,9 +1,9 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ex: <http://example.org/> .
+@prefix ex: <https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.ttl#> .
 
-<https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource3.ttl>
-    owl:sameAs <https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource1.ttl> ;
-    ex:hasData "Final value in resource 3" .
+ex:resource3
+    owl:sameAs <https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.ttl> ;
+    owl:sameAs _:b3 .
 
-<https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource1.ttl>
-    ex:linkedBack "This references back to resource 1." .
+_:b3
+    owl:sameAs <https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.ttl> .
