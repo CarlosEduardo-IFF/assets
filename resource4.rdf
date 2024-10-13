@@ -8,5 +8,8 @@
          <foaf:homepage rdf:resource="https://carlos.com"/>
     </rdf:Description>
 
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource7.rdf">
+         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource4.rdf"/>
+    </rdf:Description>
 </rdf:RDF>
 
