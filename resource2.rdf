@@ -3,10 +3,33 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:ex="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/">
 
+    <!-- Triplas originais com owl:sameAs -->
     <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf">
         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf"/>
         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf"/>
-        <ex:relatedTo rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource5.rdf"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf">
+        <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf"/>
+        <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf">
+        <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf"/>
+    </rdf:Description>
+
+    <!-- Novas triplas com ex:relatedTo -->
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf">
+        <ex:relatedTo rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf">
+        <ex:relatedTo rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf">
+        <ex:relatedTo rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf"/>
     </rdf:Description>
 
 </rdf:RDF>
+
