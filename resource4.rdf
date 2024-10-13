@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
 
     <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource4.rdf">
          <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/>
+         <foaf:homepage rdf:resource="https://carlos.com"/>
     </rdf:Description>
 
 </rdf:RDF>
