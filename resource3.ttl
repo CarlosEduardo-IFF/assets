@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ex: <http://example.org/> .
+
+<https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource3.ttl>
+    owl:sameAs <https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource1.ttl> ;
+    ex:hasData "Final value in resource 3" .
+
+<https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource1.ttl>
+    ex:linkedBack "This references back to resource 1." .
