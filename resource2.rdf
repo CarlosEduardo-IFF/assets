@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:ex="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.ttl#">
+         xmlns:ex="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf#">
   
-  <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.ttl">
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf">
     <owl:sameAs rdf:resource="_:b2"/>
-    <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.ttl"/>
+    <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf"/>
   </rdf:Description>
   
   <rdf:Description rdf:about="_:b2">
-    <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.ttl"/>
+    <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf"/>
   </rdf:Description>
   
 </rdf:RDF>
