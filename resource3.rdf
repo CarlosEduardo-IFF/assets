@@ -6,7 +6,7 @@
     <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf">
         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf"/>
         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf"/>
-        <foaf:knows rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/>
+        <foaf:birthDate>1980-01-01</foaf:birthDate> <!-- Exemplo de data de nascimento -->
     </rdf:Description>
 
 </rdf:RDF>
