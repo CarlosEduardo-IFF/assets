@@ -8,7 +8,7 @@
          <foaf:mbox rdf:resource="carlos@gmail.com"/> <!-- Exemplo de e-mail -->
     </rdf:Description>
 
-    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/anotherResource.rdf">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource4.rdf">
          <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/>
     </rdf:Description>
 
