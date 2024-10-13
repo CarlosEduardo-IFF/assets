@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:ex="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/">
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
     <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.rdf">
         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.rdf"/>
         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.rdf"/>
-        <ex:relatedTo rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/>
+        <foaf:knows rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/>
     </rdf:Description>
 
 </rdf:RDF>
