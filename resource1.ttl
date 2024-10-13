@@ -1,11 +1,9 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ex: <http://example.org/> .
+@prefix ex: <https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource1.ttl#> .
 
-<https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource1.ttl>
-    owl:sameAs <https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource2.ttl> ;
-    ex:hasProperty "Some Value" ;
-    ex:relatedTo _:blankNode1 .
+ex:resource1
+    owl:sameAs <https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource2.ttl> ;
+    owl:sameAs _:b1 .
 
-_:blankNode1
-    owl:sameAs <https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/resource3.ttl> ;
-    ex:description "This is a blank node linking to resource 3." .
+_:b1
+    owl:sameAs <https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource3.ttl> .
