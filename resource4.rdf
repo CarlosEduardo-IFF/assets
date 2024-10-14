@@ -3,13 +3,13 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource4.rdf">
-         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/>
-         <foaf:homepage rdf:resource="https://carlos.com"/>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Cadu4.rdf">
+         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Edu6.rdf"/>
+         <foaf:homepage rdf:resource="https://carlosEduardo.com"/>
     </rdf:Description>
 
-    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource7.rdf">
-         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource4.rdf"/>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/C.Eduardo7.rdf">
+         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Cadu4.rdf"/>
     </rdf:Description>
 </rdf:RDF>
 
