@@ -17,8 +17,4 @@
          <foaf:age>22</foaf:age>
     </rdf:Description>
 
-    <rdf:Description>
-         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Carlos2.rdf"/>
-    </rdf:Description>
-
 </rdf:RDF>
