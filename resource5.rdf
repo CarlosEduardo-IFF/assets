@@ -3,8 +3,8 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource5.rdf">
-        <foaf:knows rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/resource6.rdf"/> <!-- resource6 como objeto -->
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Alguem5.rdf">
+        <foaf:knows rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Edu6.rdf"/> 
     </rdf:Description>
 
 </rdf:RDF>
