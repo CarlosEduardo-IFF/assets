@@ -9,4 +9,9 @@
         <foaf:birthDate>2002-10-02</foaf:birthDate>
     </rdf:Description>
 
+    <rdf:Description rdf:about="https://example.org/organization/TechCompany">
+        <foaf:name>Tech Company</foaf:name>
+        <foaf:homepage rdf:resource="https://example.org/techcompany"/>
+    </rdf:Description>
+
 </rdf:RDF>
