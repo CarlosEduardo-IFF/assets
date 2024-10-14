@@ -17,12 +17,8 @@
          <foaf:age>22</foaf:age>
     </rdf:Description>
 
-<!-- Blank Node Example -->
     <rdf:Description>
-        <foaf:knows rdf:nodeID="blankNode1"/>
+         <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Carlos2.rdf"/>
     </rdf:Description>
 
-    <rdf:Description rdf:nodeID="blankNode1">
-        <foaf:name>João Silva</foaf:name>
-    </rdf:Description>
 </rdf:RDF>
