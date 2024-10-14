@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
     <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Cadu4.rdf">
@@ -11,5 +12,12 @@
     <rdf:Description rdf:about="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/C.Eduardo7.rdf">
          <owl:sameAs rdf:resource="https://raw.githubusercontent.com/CarlosEduardo-IFF/assets/refs/heads/main/Cadu4.rdf"/>
     </rdf:Description>
+
+    <rdf:Description rdf:about="https://example.org/movie/TheMatrix">
+        <dcterms:title>The Matrix</dcterms:title>
+        <dcterms:creator>The Wachowskis</dcterms:creator>
+        <dcterms:date>1999-03-31</dcterms:date>
+    </rdf:Description>
+
 </rdf:RDF>
 
