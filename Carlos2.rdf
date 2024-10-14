@@ -17,4 +17,12 @@
          <foaf:age>22</foaf:age>
     </rdf:Description>
 
+<!-- Blank Node Example -->
+    <rdf:Description>
+        <foaf:knows rdf:nodeID="blankNode1"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:nodeID="blankNode1">
+        <foaf:name>João Silva</foaf:name>
+    </rdf:Description>
 </rdf:RDF>
