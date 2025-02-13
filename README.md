@@ -16,6 +16,8 @@ Após a inicialização, acesse a aplicação no navegador:
 
 🔗 http://localhost:8080/principal
 
+---
+
 ## 🗄️ Como acessar o pgAdmin
 Acesse o pgAdmin através do link:
 
