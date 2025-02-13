@@ -16,3 +16,15 @@ docker compose up --build
 Após a inicialização, acesse a aplicação no navegador: 
 
 🔗 http://localhost:8080/principal
+
+## 🗄️ Como acessar o pgAdmin
+Acesse o pgAdmin através do link:
+
+🔗 http://localhost:8081/
+
+Utilize as seguintes credenciais para login:
+
+```plaintext
+📧 Email: admin@example.com
+🔑 Senha: admin
+```
