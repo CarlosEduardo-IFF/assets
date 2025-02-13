@@ -10,7 +10,8 @@ O sistema oferece uma plataforma onde vendedores e clientes se unem em um ecossi
 Para iniciar a aplicação, utilize o seguinte comando:
 
 ```sh
-docker compose up --build
-Após a inicialização, acesse a aplicação no navegador:
+docker compose up --build ```
+
+Após a inicialização, acesse a aplicação no navegador: 
 
 🔗 http://localhost:8080/principal
